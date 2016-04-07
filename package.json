@@ -1,0 +1,21 @@
+{
+  "name": "lyubi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal lyubishchev time log to .ics parser",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "coffee --no-header -b -o lib -c src"
+  },
+  "bin": {
+    "lyubi": "./lib/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
