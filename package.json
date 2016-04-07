@@ -6,7 +6,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "coffee --no-header -b -o lib -c src"
+    "prepublish": "./node_modules/coffee-script/bin/coffee --no-header -b -o lib -c src"
   },
   "bin": {
     "lyubi": "./lib/index.js"
