@@ -2,7 +2,7 @@
   "name": "lyubi",
   "version": "1.0.1",
   "author": "hackape",
-  "description": "Personal lyubishchev time log to .ics parser",
+  "description": "Lyubishchev time log to ics converter",
   "main": "index.js",
   "repository": {
     "type": "git",
