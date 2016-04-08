@@ -1,8 +1,8 @@
 `#!/usr/bin/env node
 `
 fs = require 'fs'
-parser = require './parser'
-ics = require './ics'
+parser = require './lib/parser'
+ics = require './lib/ics'
 program = require 'commander'
 
 toISOString = (date) ->

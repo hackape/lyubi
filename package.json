@@ -1,15 +1,19 @@
 {
   "name": "lyubi",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.0.1",
+  "author": "hackape",
   "description": "Personal lyubishchev time log to .ics parser",
-  "main": "./lib/index.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackape/lyubi.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "./node_modules/coffee-script/bin/coffee --no-header -b -o lib -c src"
+    "prepublish": "./node_modules/coffee-script/bin/coffee --no-header -b -o . -c src"
   },
   "bin": {
-    "lyubi": "./lib/index.js"
+    "lyubi": "index.js"
   },
   "license": "MIT",
   "dependencies": {
